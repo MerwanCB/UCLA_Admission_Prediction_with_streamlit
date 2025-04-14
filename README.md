@@ -1,9 +1,14 @@
 # UCLA Graduate Admission Predictor
 
-This app has been built using Streamlit and is designed for predicting admission chances to UCLA graduate programs.
+This project uses machine learning to guess if a student might get into a Master's program at UCLA, based on their scores and profile. It includes a web app built with Streamlit where you can enter your details and get a prediction.
 
-*(Optional: Add this section if deployed)*
-Visit the app here: [Link to deployed Streamlit app - Placeholder]
+---
+
+Visit the live Streamlit app here:
+[https://uclaadmissionpredictionwithapp-4lcsl8gtld53ls7xnyrl4n.streamlit.app/](https://uclaadmissionpredictionwithapp-4lcsl8gtld53ls7xnyrl4n.streamlit.app/)
+
+View the code on GitHub:
+[https://github.com/MerwanCB/UCLA_Admission_Prediction_with_streamlit](https://github.com/MerwanCB/UCLA_Admission_Prediction_with_streamlit)
 
 ---
 
@@ -16,7 +21,7 @@ This application predicts a prospective student's likelihood of admission into a
 *   **User-Friendly Interface:** Powered by Streamlit for easy interaction.
 *   **Input Form:** Collects details such as GRE/TOEFL scores, undergraduate CGPA, university rating, SOP/LOR strength, and research experience.
 *   **Real-Time Prediction:** Instantly provides an admission chance prediction ('High Chance' / 'Lower Chance') based on the trained model.
-*   **(Optional)** Accessible via Streamlit Community Cloud (or other deployment platform).
+*   **Accessible Online:** Deployed via Streamlit Community Cloud.
 
 ## Dataset
 
@@ -38,7 +43,7 @@ The model is trained on a dataset created specifically for predicting graduate a
 *   **Pandas:** For data loading, manipulation, and preparation.
 *   **NumPy:** For numerical operations.
 *   **Pickle:** For saving and loading the trained model and scaler.
-*   **(Optional) Matplotlib/Seaborn:** Used in the data analysis and model evaluation pipeline (e.g., generating loss curves).
+*   **Matplotlib/Seaborn:** Used in the data analysis and model evaluation pipeline (e.g., generating loss curves).
 
 ## Model
 
@@ -62,8 +67,8 @@ If you want to run the application locally, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/ucla-admission-predictor.git # Replace with your repo URL
-    cd ucla-admission-predictor
+    git clone https://github.com/MerwanCB/UCLA_Admission_Prediction_with_streamlit.git
+    cd UCLA_Admission_Prediction_with_streamlit
     ```
 
 2.  **Create and activate a virtual environment:**
@@ -73,11 +78,9 @@ If you want to run the application locally, follow these steps:
     ```
 
 3.  **Install dependencies:**
-    *(Ensure you have a `requirements.txt` file)*
     ```bash
     pip install -r requirements.txt
     ```
-    *(If you don't have a `requirements.txt`, you'll need to create one based on the imports, e.g., `pip install streamlit pandas scikit-learn numpy`)*
 
 4.  **Run the Streamlit application:**
     ```bash
